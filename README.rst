@@ -6,7 +6,7 @@ CookiePress
 .. image:: https://img.shields.io/pypi/v/cookiepress.svg
         :target: https://pypi.python.org/pypi/cookiepress
 
-.. image:: https://img.shields.io/travis/elgertam/cookiepress.svg
+.. image:: https://img.shields.io/travis/com/elgertam/cookiepress.svg
         :target: https://travis-ci.com/elgertam/cookiepress
 
 .. image:: https://readthedocs.org/projects/cookiepress/badge/?version=latest
