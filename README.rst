@@ -7,7 +7,7 @@ CookiePress
         :target: https://pypi.python.org/pypi/cookiepress
 
 .. image:: https://img.shields.io/travis/elgertam/cookiepress.svg
-        :target: https://travis-ci.org/elgertam/cookiepress
+        :target: https://travis-ci.com/elgertam/cookiepress
 
 .. image:: https://readthedocs.org/projects/cookiepress/badge/?version=latest
         :target: https://cookiepress.readthedocs.io/en/latest/?badge=latest
