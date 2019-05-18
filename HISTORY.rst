@@ -12,7 +12,7 @@ History
 
 * Cleaned up some project settings.
 
-0.1.2 (2019-05-17)
-------------------
+0.1.2-0.1.4 (2019-05-17)
+------------------------
 
 * Project settings cleaned.
