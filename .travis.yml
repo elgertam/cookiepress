@@ -1,29 +1,18 @@
-# Config file for automatic testing at travis-ci.org
-
 language: python
 dist: xenial
 python:
-  - "3.7"
-  - "3.6"
-  - "3.5"
-
-# Command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
+- '3.7'
+- '3.6'
+- '3.5'
 install: pip install -U tox-travis
-
-# Command to run tests, e.g. python setup.py test
 script: tox
-
-# Assuming you have installed the travis-ci CLI tool, after you
-# create the Github repo and add it to Travis, run the
-# following command to finish PyPI deployment setup:
-# $ travis encrypt --add deploy.password
-# deploy:
-#   provider: pypi
-#   distributions: sdist bdist_wheel
-#   user: elgertam
-#   password:
-#     secure: PLEASE_REPLACE_ME
-#   on:
-#     tags: true
-#     repo: elgertam/cookiepress
-#     python: 3.7
+deploy:
+  provider: pypi
+  distributions: sdist bdist_wheel
+  user: elgertam
+  password:
+    secure: qYA6Q1yv6BQVLMraBzHIfs8Be0gnp2QzivgfEeH+KigbB5Y2/dXZ5j+CWIT7uap+KtnrGyYNGN+WotC+ZhQfd63qlTGQ+Dhv+xSnQcDUd9VTnRX4D659HHhvMVf+6J80HmlVpOuH1b3SwoAafiWD9g0MjDwAHks6tuTIvH0RUgJwAfs79evQbJ8WnQrwt3fTcs88Yse5PO2gDvUhrTMe7IZsq0FA0ekb+doKLfp+EZnomqIv/qeMXgHaMKyXK9cENF+Yeln89HHTk3YnyMITPJmVDS8iwDfE6lVxUPRgoBDSwItyz2QZK+cH2wJTKLJjlMIz+Uda+Rt4uXPgXtaQmqcB4nPi4iGH93lu0kXPzhhGzGr4IrD+IYVDwqg4KeT4u3FFyp1D+Gldx5lmFXqmnJfw/5GlcrPkmhD1CmgrP1vlp7h1+I8IqqAf8bScPaCQ6+dtk/aFlwz1u7QyH3gvNUiQ1IcIAgNi+dK37SeAltLhB4E/KxVJ+R+DAWvUWyxTYsJlz3H624nIBwEuZgYWalzQ3HbVcigkPJIyCF261kvK/bCADjnpaZoIo6PfRvpsv3Kpzz+0gAM2m0Mp1L1G02nQko0bJkwDZp4C28yTaPIG4RTZYyWIfAl9PbBX4BfQmNXPwrnYBaHB3ma1T3Yvia5GI7fqqZ6ccFCg6DRok1k=
+  on:
+    tags: true
+    repo: elgertam/cookiepress
+    python: 3.7
