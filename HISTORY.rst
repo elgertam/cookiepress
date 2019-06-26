@@ -16,3 +16,8 @@ History
 ------------------------
 
 * Project settings cleaned.
+
+0.1.5 (2019-06-26)
+------------------
+
+* Added donation link

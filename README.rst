@@ -13,6 +13,9 @@ CookiePress
         :target: https://cookiepress.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
+.. image:: https://img.shields.io/badge/donate-PayPal-blue.svg?logo=paypal
+        :target: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=CPTWMKWMVXDQW&currency_code=USD&source=url
+        :alt: Donate to Andrew Elgert
 
 
 
