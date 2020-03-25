@@ -12,7 +12,7 @@ coverage = "*"
 pathlib2 = "*"
 pytest = "*"
 pytest-runner = "*"
-PyInstaller = "*"
+PyInstaller = ">=3.6"
 Sphinx = "*"
 twine = "*"
 
